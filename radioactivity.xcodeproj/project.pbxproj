@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F91DB65713BB83BF0059C278 /* DataInfrastructureSetUpService.m in Sources */ = {isa = PBXBuildFile; fileRef = F91DB65613BB83BF0059C278 /* DataInfrastructureSetUpService.m */; };
+		F91DB65C13BB88F90059C278 /* ODLData.m in Sources */ = {isa = PBXBuildFile; fileRef = F91DB65B13BB88F90059C278 /* ODLData.m */; };
+		F926AAF113E1EA39009ECF9E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F926AAED13E1EA39009ECF9E /* icon@2x.png */; };
+		F926AAF213E1EA39009ECF9E /* icon_appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = F926AAEE13E1EA39009ECF9E /* icon_appstore.png */; };
+		F926AAF313E1EA39009ECF9E /* splashscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F926AAEF13E1EA39009ECF9E /* splashscreen@2x.png */; };
+		F926AAF413E1EA39009ECF9E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F926AAF013E1EA39009ECF9E /* icon.png */; };
+		F92A5A3713BE36AA006455B4 /* UIMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92A5A3513BE36AA006455B4 /* UIMapViewController.m */; };
+		F92A5A3813BE36AA006455B4 /* UIMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92A5A3613BE36AA006455B4 /* UIMapViewController.xib */; };
+		F92A5A3B13BE36D6006455B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92A5A3A13BE36D6006455B4 /* MapKit.framework */; };
+		F92A5A3E13BE398F006455B4 /* MeasuringMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F92A5A3D13BE398F006455B4 /* MeasuringMapPoint.m */; };
+		F9A18B1513CB461300F05BD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A18B1413CB461300F05BD9 /* CoreLocation.framework */; };
+		F9A18B4713CB5E1E00F05BD9 /* MeasuringDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A18B4513CB5E1E00F05BD9 /* MeasuringDetailView.m */; };
+		F9A18B4813CB5E1E00F05BD9 /* MeasuringDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A18B4613CB5E1E00F05BD9 /* MeasuringDetailView.xib */; };
+		F9D111B213BB737800CA7D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D111B113BB737800CA7D1B /* UIKit.framework */; };
+		F9D111B413BB737800CA7D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D111B313BB737800CA7D1B /* Foundation.framework */; };
+		F9D111B613BB737800CA7D1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D111B513BB737800CA7D1B /* CoreGraphics.framework */; };
+		F9D111BC13BB737800CA7D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9D111BA13BB737800CA7D1B /* InfoPlist.strings */; };
+		F9D111BF13BB737800CA7D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D111BE13BB737800CA7D1B /* main.m */; };
+		F9D111C213BB737800CA7D1B /* radioactivityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D111C113BB737800CA7D1B /* radioactivityAppDelegate.m */; };
+		F9D111CC13BB737800CA7D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D111B113BB737800CA7D1B /* UIKit.framework */; };
+		F9D111CD13BB737800CA7D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D111B313BB737800CA7D1B /* Foundation.framework */; };
+		F9D111CE13BB737800CA7D1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D111B513BB737800CA7D1B /* CoreGraphics.framework */; };
+		F9D111D613BB737800CA7D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9D111D413BB737800CA7D1B /* InfoPlist.strings */; };
+		F9D111D913BB737800CA7D1B /* radioactivityTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F9D111D813BB737800CA7D1B /* radioactivityTests.h */; };
+		F9D111DB13BB737800CA7D1B /* radioactivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D111DA13BB737800CA7D1B /* radioactivityTests.m */; };
+		F9D1120013BB742B00CA7D1B /* SynchronizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D111FC13BB742B00CA7D1B /* SynchronizationService.m */; };
+		F9D1120113BB742B00CA7D1B /* AsynchronousNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D111FE13BB742B00CA7D1B /* AsynchronousNetworkService.m */; };
+		F9D1121213BB75E900CA7D1B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1120713BB75E900CA7D1B /* NSObject+SBJSON.m */; };
+		F9D1121313BB75E900CA7D1B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1120913BB75E900CA7D1B /* NSString+SBJSON.m */; };
+		F9D1121413BB75E900CA7D1B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1120B13BB75E900CA7D1B /* SBJSON.m */; };
+		F9D1121513BB75E900CA7D1B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1120D13BB75E900CA7D1B /* SBJsonBase.m */; };
+		F9D1121613BB75E900CA7D1B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1120F13BB75E900CA7D1B /* SBJsonParser.m */; };
+		F9D1121713BB75E900CA7D1B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1121113BB75E900CA7D1B /* SBJsonWriter.m */; };
+		F9D1121B13BB762F00CA7D1B /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1121A13BB762F00CA7D1B /* ISO8601DateFormatter.m */; };
+		F9D1121F13BB764C00CA7D1B /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D1121E13BB764C00CA7D1B /* Utilities.m */; };
+		F9F5DF0013E09ACA00A29B51 /* Todos in Resources */ = {isa = PBXBuildFile; fileRef = F9F5DEFF13E09ACA00A29B51 /* Todos */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9D111CF13BB737800CA7D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D111A413BB737800CA7D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D111AC13BB737800CA7D1B;
+			remoteInfo = radioactivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F91DB65513BB83BF0059C278 /* DataInfrastructureSetUpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataInfrastructureSetUpService.h; sourceTree = "<group>"; };
+		F91DB65613BB83BF0059C278 /* DataInfrastructureSetUpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataInfrastructureSetUpService.m; sourceTree = "<group>"; };
+		F91DB65A13BB88F90059C278 /* ODLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODLData.h; sourceTree = "<group>"; };
+		F91DB65B13BB88F90059C278 /* ODLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODLData.m; sourceTree = "<group>"; };
+		F926AAED13E1EA39009ECF9E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F926AAEE13E1EA39009ECF9E /* icon_appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_appstore.png; sourceTree = "<group>"; };
+		F926AAEF13E1EA39009ECF9E /* splashscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashscreen@2x.png"; sourceTree = "<group>"; };
+		F926AAF013E1EA39009ECF9E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F92A5A3413BE36AA006455B4 /* UIMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMapViewController.h; sourceTree = "<group>"; };
+		F92A5A3513BE36AA006455B4 /* UIMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMapViewController.m; sourceTree = "<group>"; };
+		F92A5A3613BE36AA006455B4 /* UIMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIMapViewController.xib; sourceTree = "<group>"; };
+		F92A5A3A13BE36D6006455B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F92A5A3C13BE398F006455B4 /* MeasuringMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasuringMapPoint.h; sourceTree = "<group>"; };
+		F92A5A3D13BE398F006455B4 /* MeasuringMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasuringMapPoint.m; sourceTree = "<group>"; };
+		F9A18B1413CB461300F05BD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F9A18B4413CB5E1D00F05BD9 /* MeasuringDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasuringDetailView.h; sourceTree = "<group>"; };
+		F9A18B4513CB5E1E00F05BD9 /* MeasuringDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasuringDetailView.m; sourceTree = "<group>"; };
+		F9A18B4613CB5E1E00F05BD9 /* MeasuringDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeasuringDetailView.xib; sourceTree = "<group>"; };
+		F9D08CA113C0D2E00024F800 /* DataDownloadFinishedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDownloadFinishedDelegate.h; sourceTree = "<group>"; };
+		F9D111AD13BB737800CA7D1B /* radioactivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radioactivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D111B113BB737800CA7D1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9D111B313BB737800CA7D1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9D111B513BB737800CA7D1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9D111B913BB737800CA7D1B /* radioactivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "radioactivity-Info.plist"; sourceTree = "<group>"; };
+		F9D111BB13BB737800CA7D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9D111BD13BB737800CA7D1B /* radioactivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "radioactivity-Prefix.pch"; sourceTree = "<group>"; };
+		F9D111BE13BB737800CA7D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9D111C013BB737800CA7D1B /* radioactivityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radioactivityAppDelegate.h; sourceTree = "<group>"; };
+		F9D111C113BB737800CA7D1B /* radioactivityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radioactivityAppDelegate.m; sourceTree = "<group>"; };
+		F9D111CB13BB737800CA7D1B /* radioactivityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = radioactivityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D111D313BB737800CA7D1B /* radioactivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "radioactivityTests-Info.plist"; sourceTree = "<group>"; };
+		F9D111D513BB737800CA7D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9D111D713BB737800CA7D1B /* radioactivityTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "radioactivityTests-Prefix.pch"; sourceTree = "<group>"; };
+		F9D111D813BB737800CA7D1B /* radioactivityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radioactivityTests.h; sourceTree = "<group>"; };
+		F9D111DA13BB737800CA7D1B /* radioactivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radioactivityTests.m; sourceTree = "<group>"; };
+		F9D111FB13BB742B00CA7D1B /* SynchronizationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizationService.h; sourceTree = "<group>"; };
+		F9D111FC13BB742B00CA7D1B /* SynchronizationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizationService.m; sourceTree = "<group>"; };
+		F9D111FD13BB742B00CA7D1B /* AsynchronousNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousNetworkService.h; sourceTree = "<group>"; };
+		F9D111FE13BB742B00CA7D1B /* AsynchronousNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousNetworkService.m; sourceTree = "<group>"; };
+		F9D111FF13BB742B00CA7D1B /* AsynchronousNetworkServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousNetworkServiceDelegate.h; sourceTree = "<group>"; };
+		F9D1120513BB75E900CA7D1B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F9D1120613BB75E900CA7D1B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F9D1120713BB75E900CA7D1B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F9D1120813BB75E900CA7D1B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F9D1120913BB75E900CA7D1B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F9D1120A13BB75E900CA7D1B /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		F9D1120B13BB75E900CA7D1B /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		F9D1120C13BB75E900CA7D1B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F9D1120D13BB75E900CA7D1B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F9D1120E13BB75E900CA7D1B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F9D1120F13BB75E900CA7D1B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F9D1121013BB75E900CA7D1B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F9D1121113BB75E900CA7D1B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F9D1121913BB762F00CA7D1B /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		F9D1121A13BB762F00CA7D1B /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		F9D1121D13BB764C00CA7D1B /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		F9D1121E13BB764C00CA7D1B /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		F9F5DEF913E099CA00A29B51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F9F5DEFF13E09ACA00A29B51 /* Todos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Todos; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9D111AA13BB737800CA7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A18B1513CB461300F05BD9 /* CoreLocation.framework in Frameworks */,
+				F92A5A3B13BE36D6006455B4 /* MapKit.framework in Frameworks */,
+				F9D111B213BB737800CA7D1B /* UIKit.framework in Frameworks */,
+				F9D111B413BB737800CA7D1B /* Foundation.framework in Frameworks */,
+				F9D111B613BB737800CA7D1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D111C713BB737800CA7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D111CC13BB737800CA7D1B /* UIKit.framework in Frameworks */,
+				F9D111CD13BB737800CA7D1B /* Foundation.framework in Frameworks */,
+				F9D111CE13BB737800CA7D1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F91DB65913BB88BD0059C278 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F91DB65A13BB88F90059C278 /* ODLData.h */,
+				F91DB65B13BB88F90059C278 /* ODLData.m */,
+				F92A5A3C13BE398F006455B4 /* MeasuringMapPoint.h */,
+				F92A5A3D13BE398F006455B4 /* MeasuringMapPoint.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F9D111A213BB737800CA7D1B = {
+			isa = PBXGroup;
+			children = (
+				F9F5DEFF13E09ACA00A29B51 /* Todos */,
+				F9F5DEF913E099CA00A29B51 /* CoreData.framework */,
+				F9A18B1413CB461300F05BD9 /* CoreLocation.framework */,
+				F92A5A3A13BE36D6006455B4 /* MapKit.framework */,
+				F9D111B713BB737800CA7D1B /* radioactivity */,
+				F9D111D113BB737800CA7D1B /* radioactivityTests */,
+				F9D111B013BB737800CA7D1B /* Frameworks */,
+				F9D111AE13BB737800CA7D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9D111AE13BB737800CA7D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9D111AD13BB737800CA7D1B /* radioactivity.app */,
+				F9D111CB13BB737800CA7D1B /* radioactivityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D111B013BB737800CA7D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D111B113BB737800CA7D1B /* UIKit.framework */,
+				F9D111B313BB737800CA7D1B /* Foundation.framework */,
+				F9D111B513BB737800CA7D1B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D111B713BB737800CA7D1B /* radioactivity */ = {
+			isa = PBXGroup;
+			children = (
+				F91DB65913BB88BD0059C278 /* Model */,
+				F9D1121C13BB763C00CA7D1B /* Utilities */,
+				F9D1121813BB760900CA7D1B /* ISO8601-Parser */,
+				F9D1120413BB75C400CA7D1B /* JSON */,
+				F9D111C013BB737800CA7D1B /* radioactivityAppDelegate.h */,
+				F9D111C113BB737800CA7D1B /* radioactivityAppDelegate.m */,
+				F9D1120213BB744600CA7D1B /* Datasynchronizer */,
+				F9D111B813BB737800CA7D1B /* Supporting Files */,
+				F92A5A3413BE36AA006455B4 /* UIMapViewController.h */,
+				F9D08CA113C0D2E00024F800 /* DataDownloadFinishedDelegate.h */,
+				F92A5A3513BE36AA006455B4 /* UIMapViewController.m */,
+				F92A5A3613BE36AA006455B4 /* UIMapViewController.xib */,
+				F9A18B4413CB5E1D00F05BD9 /* MeasuringDetailView.h */,
+				F9A18B4513CB5E1E00F05BD9 /* MeasuringDetailView.m */,
+				F9A18B4613CB5E1E00F05BD9 /* MeasuringDetailView.xib */,
+			);
+			path = radioactivity;
+			sourceTree = "<group>";
+		};
+		F9D111B813BB737800CA7D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F926AAED13E1EA39009ECF9E /* icon@2x.png */,
+				F926AAEE13E1EA39009ECF9E /* icon_appstore.png */,
+				F926AAEF13E1EA39009ECF9E /* splashscreen@2x.png */,
+				F926AAF013E1EA39009ECF9E /* icon.png */,
+				F9D111B913BB737800CA7D1B /* radioactivity-Info.plist */,
+				F9D111BA13BB737800CA7D1B /* InfoPlist.strings */,
+				F9D111BD13BB737800CA7D1B /* radioactivity-Prefix.pch */,
+				F9D111BE13BB737800CA7D1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9D111D113BB737800CA7D1B /* radioactivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D111D813BB737800CA7D1B /* radioactivityTests.h */,
+				F9D111DA13BB737800CA7D1B /* radioactivityTests.m */,
+				F9D111D213BB737800CA7D1B /* Supporting Files */,
+			);
+			path = radioactivityTests;
+			sourceTree = "<group>";
+		};
+		F9D111D213BB737800CA7D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D111D313BB737800CA7D1B /* radioactivityTests-Info.plist */,
+				F9D111D413BB737800CA7D1B /* InfoPlist.strings */,
+				F9D111D713BB737800CA7D1B /* radioactivityTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9D1120213BB744600CA7D1B /* Datasynchronizer */ = {
+			isa = PBXGroup;
+			children = (
+				F91DB65513BB83BF0059C278 /* DataInfrastructureSetUpService.h */,
+				F91DB65613BB83BF0059C278 /* DataInfrastructureSetUpService.m */,
+				F9D111FB13BB742B00CA7D1B /* SynchronizationService.h */,
+				F9D111FC13BB742B00CA7D1B /* SynchronizationService.m */,
+				F9D1120313BB748900CA7D1B /* Network */,
+			);
+			name = Datasynchronizer;
+			sourceTree = "<group>";
+		};
+		F9D1120313BB748900CA7D1B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F9D111FD13BB742B00CA7D1B /* AsynchronousNetworkService.h */,
+				F9D111FE13BB742B00CA7D1B /* AsynchronousNetworkService.m */,
+				F9D111FF13BB742B00CA7D1B /* AsynchronousNetworkServiceDelegate.h */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F9D1120413BB75C400CA7D1B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F9D1120513BB75E900CA7D1B /* JSON.h */,
+				F9D1120613BB75E900CA7D1B /* NSObject+SBJSON.h */,
+				F9D1120713BB75E900CA7D1B /* NSObject+SBJSON.m */,
+				F9D1120813BB75E900CA7D1B /* NSString+SBJSON.h */,
+				F9D1120913BB75E900CA7D1B /* NSString+SBJSON.m */,
+				F9D1120A13BB75E900CA7D1B /* SBJSON.h */,
+				F9D1120B13BB75E900CA7D1B /* SBJSON.m */,
+				F9D1120C13BB75E900CA7D1B /* SBJsonBase.h */,
+				F9D1120D13BB75E900CA7D1B /* SBJsonBase.m */,
+				F9D1120E13BB75E900CA7D1B /* SBJsonParser.h */,
+				F9D1120F13BB75E900CA7D1B /* SBJsonParser.m */,
+				F9D1121013BB75E900CA7D1B /* SBJsonWriter.h */,
+				F9D1121113BB75E900CA7D1B /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		F9D1121813BB760900CA7D1B /* ISO8601-Parser */ = {
+			isa = PBXGroup;
+			children = (
+				F9D1121913BB762F00CA7D1B /* ISO8601DateFormatter.h */,
+				F9D1121A13BB762F00CA7D1B /* ISO8601DateFormatter.m */,
+			);
+			name = "ISO8601-Parser";
+			sourceTree = "<group>";
+		};
+		F9D1121C13BB763C00CA7D1B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F9D1121D13BB764C00CA7D1B /* Utilities.h */,
+				F9D1121E13BB764C00CA7D1B /* Utilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9D111AC13BB737800CA7D1B /* radioactivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D111DE13BB737900CA7D1B /* Build configuration list for PBXNativeTarget "radioactivity" */;
+			buildPhases = (
+				F9D111A913BB737800CA7D1B /* Sources */,
+				F9D111AA13BB737800CA7D1B /* Frameworks */,
+				F9D111AB13BB737800CA7D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = radioactivity;
+			productName = radioactivity;
+			productReference = F9D111AD13BB737800CA7D1B /* radioactivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9D111CA13BB737800CA7D1B /* radioactivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D111E113BB737900CA7D1B /* Build configuration list for PBXNativeTarget "radioactivityTests" */;
+			buildPhases = (
+				F9D111C613BB737800CA7D1B /* Sources */,
+				F9D111C713BB737800CA7D1B /* Frameworks */,
+				F9D111C813BB737800CA7D1B /* Resources */,
+				F9D111C913BB737800CA7D1B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D111D013BB737800CA7D1B /* PBXTargetDependency */,
+			);
+			name = radioactivityTests;
+			productName = radioactivityTests;
+			productReference = F9D111CB13BB737800CA7D1B /* radioactivityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9D111A413BB737800CA7D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = own;
+			};
+			buildConfigurationList = F9D111A713BB737800CA7D1B /* Build configuration list for PBXProject "radioactivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9D111A213BB737800CA7D1B;
+			productRefGroup = F9D111AE13BB737800CA7D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9D111AC13BB737800CA7D1B /* radioactivity */,
+				F9D111CA13BB737800CA7D1B /* radioactivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D111AB13BB737800CA7D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D111BC13BB737800CA7D1B /* InfoPlist.strings in Resources */,
+				F92A5A3813BE36AA006455B4 /* UIMapViewController.xib in Resources */,
+				F9A18B4813CB5E1E00F05BD9 /* MeasuringDetailView.xib in Resources */,
+				F9F5DF0013E09ACA00A29B51 /* Todos in Resources */,
+				F926AAF113E1EA39009ECF9E /* icon@2x.png in Resources */,
+				F926AAF213E1EA39009ECF9E /* icon_appstore.png in Resources */,
+				F926AAF313E1EA39009ECF9E /* splashscreen@2x.png in Resources */,
+				F926AAF413E1EA39009ECF9E /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D111C813BB737800CA7D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D111D613BB737800CA7D1B /* InfoPlist.strings in Resources */,
+				F9D111D913BB737800CA7D1B /* radioactivityTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9D111C913BB737800CA7D1B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9D111A913BB737800CA7D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D111BF13BB737800CA7D1B /* main.m in Sources */,
+				F9D111C213BB737800CA7D1B /* radioactivityAppDelegate.m in Sources */,
+				F9D1120013BB742B00CA7D1B /* SynchronizationService.m in Sources */,
+				F9D1120113BB742B00CA7D1B /* AsynchronousNetworkService.m in Sources */,
+				F9D1121213BB75E900CA7D1B /* NSObject+SBJSON.m in Sources */,
+				F9D1121313BB75E900CA7D1B /* NSString+SBJSON.m in Sources */,
+				F9D1121413BB75E900CA7D1B /* SBJSON.m in Sources */,
+				F9D1121513BB75E900CA7D1B /* SBJsonBase.m in Sources */,
+				F9D1121613BB75E900CA7D1B /* SBJsonParser.m in Sources */,
+				F9D1121713BB75E900CA7D1B /* SBJsonWriter.m in Sources */,
+				F9D1121B13BB762F00CA7D1B /* ISO8601DateFormatter.m in Sources */,
+				F9D1121F13BB764C00CA7D1B /* Utilities.m in Sources */,
+				F91DB65713BB83BF0059C278 /* DataInfrastructureSetUpService.m in Sources */,
+				F91DB65C13BB88F90059C278 /* ODLData.m in Sources */,
+				F92A5A3713BE36AA006455B4 /* UIMapViewController.m in Sources */,
+				F92A5A3E13BE398F006455B4 /* MeasuringMapPoint.m in Sources */,
+				F9A18B4713CB5E1E00F05BD9 /* MeasuringDetailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D111C613BB737800CA7D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D111DB13BB737800CA7D1B /* radioactivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9D111D013BB737800CA7D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D111AC13BB737800CA7D1B /* radioactivity */;
+			targetProxy = F9D111CF13BB737800CA7D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9D111BA13BB737800CA7D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D111BB13BB737800CA7D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9D111D413BB737800CA7D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D111D513BB737800CA7D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9D111DC13BB737800CA7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9D111DD13BB737800CA7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F9D111DF13BB737900CA7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "radioactivity/radioactivity-Prefix.pch";
+				INFOPLIST_FILE = "radioactivity/radioactivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9D111E013BB737900CA7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "radioactivity/radioactivity-Prefix.pch";
+				INFOPLIST_FILE = "radioactivity/radioactivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9D111E213BB737900CA7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/radioactivity.app/radioactivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "radioactivityTests/radioactivityTests-Prefix.pch";
+				INFOPLIST_FILE = "radioactivityTests/radioactivityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F9D111E313BB737900CA7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/radioactivity.app/radioactivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "radioactivityTests/radioactivityTests-Prefix.pch";
+				INFOPLIST_FILE = "radioactivityTests/radioactivityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9D111A713BB737800CA7D1B /* Build configuration list for PBXProject "radioactivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D111DC13BB737800CA7D1B /* Debug */,
+				F9D111DD13BB737800CA7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D111DE13BB737900CA7D1B /* Build configuration list for PBXNativeTarget "radioactivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D111DF13BB737900CA7D1B /* Debug */,
+				F9D111E013BB737900CA7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D111E113BB737900CA7D1B /* Build configuration list for PBXNativeTarget "radioactivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D111E213BB737900CA7D1B /* Debug */,
+				F9D111E313BB737900CA7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9D111A413BB737800CA7D1B /* Project object */;
+}
